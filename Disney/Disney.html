@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="Disney.css">
+    <script type="text/javascript" src="Disney.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DISNEY</title>
+</head>
+<body>
+            <button class="disney_btn"> <i class="fa fa-bars">  </i>
+            </button>
+            <img class="disney_image" src="http://pngimg.com/uploads/walt_disney/walt_disney_PNG24.png" alt="DISNEY">
+            <p class="disney_text">PICTURES</p>
+            <div class="bar1">
+            <div><img class="barimg" src="http://pngimg.com/uploads/walt_disney/walt_disney_PNG38.png" alt="DISNEY">
+            <button class="close"> <i class="fa fa-times"></i> </button>
+            <div> 
+                        <li> <ul class="l1">
+                            <li><a href="">HOME</a></li>
+                            <li><a href="">LOCATIONS</a></li>
+                            <li><a href="">CHANELS</a></li>
+                             </ul>
+                        </li>
+                    </div>       
+                </div>
+            </div>
+                <button class="floating-btn">FOLLOW ME</button>
+            <div class="info" >
+            <p>Created with <i class="fa fa-heart"></i> by MOHID</a></p>
+            <button class="close-btn"><i class="fa fa-times"></i></button>
+            <h4>Get in touch on</h4>
+            <ul>
+                <li>
+                    <a href="https://twitter.com/ranamohid_" target="_blank">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/rana_mohid/" target="_blank">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/rana.mohid.54" target="_blank">
+                        <i class="fa fa-facebook"></i>
+                    </div>
+        </body>
+        
+        <script>
+                const button = document.querySelector('.disney_btn');
+                const blacked = document.querySelector('.bar1') ;
+                const close = document.querySelector('.close')
+
+                button.addEventListener('click', () => {
+                blacked.classList.add('black')});
+                close.addEventListener('click', () => {
+                blacked.classList.remove('black')});
+            </script>
+        
+        
+
+        
+        <script>
+            
+            const social_panel_container = document.querySelector('.info');
+            const floating_btn = document.querySelector('.floating-btn');
+            const close1 = document.querySelector('.close-btn');
+
+            floating_btn.addEventListener('click', () => {
+            social_panel_container.classList.add('followme')}); 
+            close1.addEventListener('click', () => {
+            social_panel_container.classList.remove('followme')});
+
+        </script>
+        
+</html>

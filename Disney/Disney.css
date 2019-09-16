@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box
+}
+
+body{
+    overflow: hidden;
+    font-family: fantasy;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.disney_btn{
+    position: fixed;;
+    left: 10px;
+    top: 10px;
+    background-color: transparent;
+    border: 0px;
+    font-size: 30px
+}
+
+
+}
+.disney_image{
+    position: absolute;
+    height: 60px;
+
+}
+
+.disney_text{
+    font-size: 25px;
+    
+}
+
+.bar1
+{
+    position: fixed;
+    position: fixed;
+    background-color:black; 
+	top: 0;
+	left: 0;
+    height: 100vh;
+    width: 30%;
+	transform: translateX(-100%);
+	transition: transform .3s ease-in-out .4s; 
+}
+
+.black
+{
+    transform: translateX(00px);
+}
+
+
+
+.floating-btn
+{
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+    background-color: #001F61;
+	border: 1px solid #001F61;
+    color: aliceblue;
+    height: 50px;
+    width: 150px;
+    border-radius:25px; 
+
+}
+.floating-btn:hover{
+background-color: antiquewhite;
+border: 3px solid black;
+color: blue;
+
+}
+
+.info
+{
+    position: absolute;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 16px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+	align-items: center;
+    right: 40px;
+    bottom: 40px;
+    height: 300px;
+    align-items: center;
+    width: 500px;
+    background-color: white;
+    transform: translateX(110%);
+    transition: .2s ease-in-out .4s
+}
+
+.followme
+{
+    
+    transform: translateX(-110px)
+}
+
+.barimg{
+ position: relative;
+ top: 10px;
+ left:2px;
+
+}
+
+.l1
+{
+font-size: 25px;
+left: 35px;
+color: rgb(34, 31, 31);
+text-align: center;
+text-decoration: none;
+list-style-type: none;
+
+}
+
+.close-btn{
+    border: 0;
+background: transparent;
+font-size: 26px;
+align-content: center;
+right: 5px;
+top: 4px;
+position: absolute;
+}
+
+.close{
+border: 0;
+background: transparent;
+font-size: 26px;
+align-content: center;
+right: 5px;
+top: 4px;
+position: absolute;
+}
+
+
+.info ul li a {
+	border: 1px solid #DCE1F2;
+	border-radius: 50%;
+	color: #001F61;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	width: 50px;
+	text-decoration: none;
+}
+
+.info ul {
+        display: flex;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+
+}
+i
+
+    
+
+
